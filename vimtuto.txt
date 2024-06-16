@@ -1,0 +1,88 @@
+// This file is about getting started with vim 
+// I will be making note on notion as well 
+
+
+Chapter 1 ** Basics **
+
+// Different modes in vim 
+--> Initially we are in normal mode when we type vim <filename>
+ 
+--> in this mode every key has it's function , <:> will take us to command mode , <i> or <o> or <a>  will take us 
+--> to insert mode. <i> will write the character before the curser, <o> will write in new line , while <a> will 
+--> append after the curser .
+
+--> in order to escape this insert mode we need to type the key <esc> , after pressing <esc> we reach to 
+--> normal mode.
+
+--> <i> <o> and <a> can be used with shift key 
+--> i.e. <I> will take to the begining of the sentence . Similarly , <O> will take create a text above the 
+--> current line. And similarly <A> will take you at the last of the line. 
+
+
+
+// Updating/saving the content of file 
+--> In order to do that we write content then use <esc> key to go into normal mode then we type <:w> then press
+--> <enter> key   then we will save the content . Now in order to write more content we go into the insert mode by pressing--> <i> key. 
+
+
+//  Exiting vim  
+--> in order to exit vim we just use <esc :q>
+--> if we are already in normal  mode and we wanna make change to the file then we can exit by < :wq>
+--> if we are in normal mode and we don't wanna make the new changes i.e exit without saving then, < :q!>
+
+
+// Getting line number 
+--> In order to have  line number beside us, we need to go to normal mode then, type <:set number >
+--> We can go n lines up or down by clicking n and arrow key , where n is the number 
+--> Note that we must be in normal mode and we need to press both key at once.
+
+// Navigating up and down using keys 
+--> First make sure you are in command mode, then use hjkl keys to navigate left down up  right . 
+--> Also the <gg> will bring the curser into the first line (beginning of the file)
+
+// Setting the Relative number 
+--> In order to have line number respect to the current line we use <:set relativenumber> on normal mode .
+ 
+// Setting the color scheme 
+--> We can have different color scheme inside the vim by typing <:colorscheme <tab>> , when we click tab , 
+--> it will show the available colors . 
+
+
+***** Important note *****
+--> All the setting will be gone once we quit the vim . 
+--> So inorder to make change permanent we will config ~/.vimrc file and write all the commands , 
+--> for example  <set number > <colorscheme ron> and many more .
+
+
+
+Chapter 2 ** vim keybindings **
+
+1) undo the changes 
+--> in order to do undo we can't use ctrl+z because it will put the process in the background, we just go back 
+--> to normal mode then press key <u>. 
+--> we can go n undos back by pressing n + <u> where n is the no of undos we need 
+
+2) Redo the changes 
+--> in order to redo we use < ctrl+r> , the undo and redo can be change each after going normal mode and 
+--> insert mode 
+--> as in undos we can go n redo by pressing n+ <ctrl + r> 
+
+3) Visual Mode 
+--> In order to enter into the visual mode we just go to the normal mode and then type <v> .
+--> The visual mode is used to select a certain words or character so that we can edit , delete them as 
+--> per the requirement 
+--> we can select by pressing the arrow key and delete by typing <d> . 
+--> We can copy the selected item by pressing <y> key . y stands for yanking and it means coping. 
+
+
+
+
+
+
+
+
+
+
+
+
+
