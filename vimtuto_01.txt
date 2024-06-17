@@ -6,35 +6,37 @@ This is the day 1 of learning vim from basics.
 Chapter 1 ** Basics **
 
 //Opening the file in vim.
---> In order to open a file in vim we use the command vim <filename> , if there is no file then new file will  be created and if the file exists in working directory then that file will be open.
+--> In order to open a file in vim we use the command vim <filename> , if there is no file then new file
+    will  be created and if the file exists in working directory then that file will be open.
 
 
 // Different modes in vim 
 --> There are different modes in vim : Normal mode, Command mode, Insert mode.
 --> Initially we are in normal mode when we type vim <filename>
  
---> in this mode every key has it's function , <:> will take us to command mode , <i> or <o> or <a>  will take us 
---> to insert mode. <i> will write the character before the curser, <o> will write in new line , while <a> will 
---> append after the curser .
+--> in this mode every key has it's function , <:> will take us to command mode , <i> or <o> or <a> 
+    will take us 
+--> to insert mode. <i> will write the character before the curser, <o> will write in new line , while <a> will    append after the curser .
 
 --> in order to escape this insert mode we need to type the key <esc> , after pressing <esc> we reach to 
---> normal mode.
+    normal mode.
 
 --> <i> <o> and <a> can be used with shift key 
---> i.e. <I> will take to the begining of the sentence . Similarly , <O> will take create a text above the 
---> current line. And similarly <A> will take you at the last of the line. 
+     i.e. <I> will take to the begining of the sentence . Similarly , <O> will take create a text above the 
+	 current line. And similarly <A> will take you at the last of the line. 
 
 
 
 // Updating/saving the content of file 
 --> In order to do that we write content then use <esc> key to go into normal mode then we type <:w> then press
---> <enter> key   then we will save the content . Now in order to write more content we go into the insert mode by pressing  <i> key. 
+    <enter> key   then we will save the content . Now in order to write more content we go into the insert
+	mode by pressing  <i> key. 
 
 
 //  Exiting vim  
 --> in order to exit vim we just use <esc :q>
---> if we are already in normal  mode and we wanna make change to the file then we can exit by < :wq>
---> if we are in normal mode and we don't wanna make the new changes i.e exit without saving then, < :q!>
+--> if we are already in normal  mode and we wanna make change to the file then we can exit by <:wq>
+--> if we are in normal mode and we don't wanna make the new changes i.e exit without saving then, <:q!>
 
 
 // Getting line number 
@@ -50,14 +52,13 @@ Chapter 1 ** Basics **
 --> In order to have line number respect to the current line we use <:set relativenumber> on normal mode .
  
 // Setting the color scheme 
---> We can have different color scheme inside the vim by typing <:colorscheme <tab>> , when we click tab , 
---> it will show the available colors . 
+--> We can have different color scheme inside the vim by typing <:colorscheme <tab>> , when we click tab ,         it will show the available colors . 
 
 
 ***** Important note *****
 --> All the setting will be gone once we quit the vim . 
---> So inorder to make change permanent we will config ~/.vimrc file and write all the commands , 
---> for example  <set number > <colorscheme ron> and many more .
+    So inorder to make change permanent we will config ~/.vimrc file and write all the commands , 
+    for example  <set number > <colorscheme ron> and many more .
 
 
  
