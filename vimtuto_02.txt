@@ -1,0 +1,20 @@
+
+Day 2 of learning vim from basics.
+Chapter 2 ** vim keybindings **
+
+1) undo the changes 
+--> in order to do undo we can't use ctrl+z because it will put the process in the background, we just go back 
+--> to normal mode then press key <u>. 
+--> we can go n undos back by pressing n + <u> where n is the no of undos we need 
+
+2) Redo the changes 
+--> in order to redo we use < ctrl+r> , the undo and redo can be change each after going normal mode and 
+--> insert mode 
+--> as in undos we can go n redo by pressing n+ <ctrl + r> 
+
+3) Visual Mode 
+--> In order to enter into the visual mode we just go to the normal mode and then type <v> .
+--> The visual mode is used to select a certain words or character so that we can edit , delete them as 
+--> per the requirement 
+--> we can select by pressing the arrow key and delete by typing <d> . 
+--> We can copy the selected item by pressing <y> key . y stands for yanking and it means coping. 
