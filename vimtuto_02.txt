@@ -17,4 +17,32 @@ Chapter 2 ** vim keybindings **
 --> The visual mode is used to select a certain words or character so that we can edit , delete them as 
     per the requirement .
 --> We can select by pressing the arrow key and delete by typing <d> . 
---> We can copy the selected item by pressing <y> key . y stands for yanking and it means coping. 
+--> We can copy the selected item by pressing <y> key . y stands for yanking and it means coping.
+--> We can paste the selected item by pressing <p> key . 
+
+--> Almost all these keybindings can be used in different way. <dd> deletes the whole line , <yy> copies full
+    line and we can paste the selected item with key <o> which will paste in new line below , while <O> will 
+	paste in new line above the curser.
+
+--> Deleteing and changing
+    We can delete  a line without goint to insert mode by pressing <dd> , while we can delete a whole line
+    and going to insert mode by pressing <cc> . 	
+
+
+--> Replacing the character
+    We can replace the character by pressing <r> followed by the replace character.
+
+--> We can jump words by words by pressing <w> key, <W> needs to have space between wrods but, <w> can have 
+    hyphen - in between to jump. 
+	Example: This-has-hyphen-and-small-w-will-not-take-it-as-a-single-word. While big W will take that as
+	         single word.
+--> <w> and <W> will give forward movment while <b> and <B> will give backward movement.
+
+--> We can combine the keys together so that we can use more efficiently.We know <d> is used to delete the 
+    specific portion selected in vitual mode but <dw> can be used to delete a single word , or we can give 
+	<ndw> to delete n words, also <d2b> to delete 2 words from backward.
+--> If our curser is in the middle of the word then we can delete that word by pressing <diw> i.e. delete 
+    in the word . 
+
+
+
