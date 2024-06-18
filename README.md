@@ -8,4 +8,9 @@ I'll be making vimtuto_01, vimtuto_02 where 01 , 02 defines the days progress.
 
 
 **Note** 
-Please understand the concept and practice vimtuto_01 before beginning the vimtuto_02.
+Please understand the previous concept of vimtuto_01, vimtuto_02, vimtuto_03 and vimtuto_n-1 before starting 
+vimtuto_n .
+
+
+
+
