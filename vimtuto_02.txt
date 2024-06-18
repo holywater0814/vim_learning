@@ -21,8 +21,8 @@ Chapter 2 ** vim keybindings **
 --> We can paste the selected item by pressing <p> key . 
 
 --> Almost all these keybindings can be used in different way. <dd> deletes the whole line , <yy> copies full
-    line and we can paste the selected item with key <o> which will paste in new line below , while <O> will 
-	paste in new line above the curser.
+    line and we can paste the selected item with key<p> on specific area and with <o> which will paste in new
+	line below , while <O> will paste in new line above the curser.
 
 --> Deleteing and changing
     We can delete  a line without goint to insert mode by pressing <dd> , while we can delete a whole line

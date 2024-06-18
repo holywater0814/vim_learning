@@ -4,6 +4,28 @@
 ** As we saw earlier if our curser is in the middle of the word, we need to use <diw> and in ordre to change 
    the word we use <ciw> i.e change in a word .
 ** When we are in normal mode <e> goes to the end of word and <0> goes to the beginning of line whereas,
-   $ goes to end of the particular line, just like <I> and <A> we saw earlier. 
+   $ goes to end of the particular line, just like <I> and <A> we saw earlier the only difference is 
+   with <I> and <A> we automatically come into the insert mode while with <0> and <$> we stay in normal mode
+
+** Combining <0>, <$> and <d> 
+   if we type <d0> everything before the curser will be deleted.
+   Similarly for <d$> everything after the curser will be deleted.
+
+** Changing inside " , or copying inside "
+   In order to change the whole content inside the quotatoin mark or curley brackers or any special character
+   we can simply use <ci"> or <ci(> to change inside of that portion. 
+   Example : Let us assume a simple python code --> print("Oh this can be change ") we can change that
+   by typing <ci"> followed by what to change. and we can also do <ci(> too on that particular code. 
+
+   Example2: 
+   main()
+   {
+   oh this can also be done 
+   } 
+
+   In order to copy we just do <yi"> or <yi(> or for Example2 <yi{> 
+   it will copy the content inside that particular file.
 
 
+**Note all the keys can be combined with numbers ** 
+For example : <5d5w> is 5 times delete 5 words , or <4y2w> is Four times yank(copy) 2 words.
