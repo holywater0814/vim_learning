@@ -1,0 +1,9 @@
+# Day 3 of learning vim from basics 
+***Chapter 2 *Vim keybindings * continued... ***
+
+** As we saw earlier if our curser is in the middle of the word, we need to use <diw> and in ordre to change 
+   the word we use <ciw> i.e change in a word .
+** When we are in normal mode <e> goes to the end of word and <0> goes to the beginning of line whereas,
+   $ goes to end of the particular line, just like <I> and <A> we saw earlier. 
+
+

@@ -15,8 +15,8 @@ Chapter 1 ** Basics **
 --> Initially we are in normal mode when we type vim <filename>
  
 --> in this mode every key has it's function , <:> will take us to command mode , <i> or <o> or <a> 
-    will take us 
---> to insert mode. <i> will write the character before the curser, <o> will write in new line , while <a> will    append after the curser .
+    will take us  to insert mode. <i> will write the character before the curser, <o> will write in new line ,
+	while <a> will append after the curser .
 
 --> in order to escape this insert mode we need to type the key <esc> , after pressing <esc> we reach to 
     normal mode.
@@ -45,7 +45,7 @@ Chapter 1 ** Basics **
 --> Note that we must be in normal mode and we need to press both key at once.
 
 // Navigating up and down using keys 
---> First make sure you are in command mode, then use hjkl keys to navigate left down up  right . 
+--> First make sure you are in normal mode, then use hjkl keys to navigate left down up  right . 
 --> Also the <gg> will bring the curser into the first line (beginning of the file)
 
 // Setting the Relative number 
