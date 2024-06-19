@@ -1,0 +1,41 @@
+# Day 4 of learning vim from basics. 
+
+** Chapter-03 Intermediate stuffs on vim **
+
+1) Shifting the text right or left.
+   In order to shift the text right or left we first go to the visual mode then select some text, then 
+   use '>' to go right once but to go more than once we use '>>' same with left just we use '<' and '<<'.
+   If we are in line we can use just >> or << to hover. Understand the difference (if the text is selected)
+   we use > to hover while if we are in line we use just >> to hover .
+   In order to select everything ahead or before we use shift key with the arrow keys in visual mode.
+
+2) Visual line mode and visual block mode. 
+   **Visual line mode ** 
+      In this mode we can only select whole line not the words or anything like that. We can enter that by 
+	  pressing <shift v> i.e <V> and can perform yanking , pasting and deleting . 
+
+  ** Visual block mode ** 
+      In this mode we can only select the text by column wise, we can copy paste and perform deletion too. 
+	  to enter visual block mode we press <ctrl +v > and use arrows to select the no of rows and column. 
+
+3) Autoindent in code 
+      We can autoindent the text by pressing <==> . 
+	  let's check on the following example 
+	  
+	  #include <stdio.h>
+	  int main()
+	  {
+		  printf("hello world ");
+		  return 0;
+	  }
+
+      This works on visual line mode and we can indent all at once by going to visual line mode and press <==>.
+    *We can combine this with whole file, by typing gg=G will indent whole file.
+	PS the indentation works best with C/C++ and Java.
+
+
+
+
+
+
+
