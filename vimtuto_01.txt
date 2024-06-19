@@ -47,6 +47,8 @@ Chapter 1 ** Basics **
 // Navigating up and down using keys 
 --> First make sure you are in normal mode, then use hjkl keys to navigate left down up  right . 
 --> Also the <gg> will bring the curser into the first line (beginning of the file)
+--> For the end of the file we use <G> and for specific position we use <linenumberG>
+
 
 // Setting the Relative number 
 --> In order to have line number respect to the current line we use <:set relativenumber> on normal mode .
