@@ -2,3 +2,15 @@
 
 **Chapter 2 Intermidate Vim continued **
 
+1) Searching on file 
+ --> In order to search any words or anything on a file we can easily search that , to do that we must be in 
+     normal mode and then press </wordtobesearch> and then press enter. If we have more than one such word 
+	 we need to press <n> on the keyboard to go to the next positon of that word. To get back we need to use 
+	 <N>. 
+ -->  If we need to search the backword we use <?wordtobesearch> and then press enter. If we have more than
+     one such word we press <n> for going backword and <N> for going forward . It's the matter of choice as
+	 per the requirement. 
+
+2) Marking on frequently visiting place and visiting. 
+ --> In order to mark certain line we use <m<character>> to mark that point as character, to visit that use 
+     <'<character>>.
